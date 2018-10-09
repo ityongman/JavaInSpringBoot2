@@ -1,8 +1,0 @@
-DROP TABLE IF EXISTS `user`;
-
-CREATE TABLE `user` (
-	`id` BIGINT(20) NOT NULL AUTO_INCREMENT COMMENT '主键' ,
-	`name` VARCHAR(50) NOT NULL COMMENT '名字' ,
-	`age` INT DEFAULT NULL COMMENT '年龄',
-	PRIMARY KEY(`id`)
-)engine=Innodb default charset=utf8 AUTO_INCREMENT=3300 COMMENT '用户表' ;
